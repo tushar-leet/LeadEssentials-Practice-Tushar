@@ -11,6 +11,7 @@
 		787D835129DE79E7002C6B90 /* EssentialLeedsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D835029DE79E7002C6B90 /* EssentialLeedsTests.swift */; };
 		787D835229DE79E7002C6B90 /* EssentialLeeds.h in Headers */ = {isa = PBXBuildFile; fileRef = 787D834629DE79E6002C6B90 /* EssentialLeeds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		787D835C29DE7A2D002C6B90 /* FeedItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D835B29DE7A2D002C6B90 /* FeedItems.swift */; };
+		787D835E29DE7FC3002C6B90 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787D835D29DE7FC3002C6B90 /* FeedLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		787D834B29DE79E7002C6B90 /* EssentialLeedsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialLeedsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		787D835029DE79E7002C6B90 /* EssentialLeedsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialLeedsTests.swift; sourceTree = "<group>"; };
 		787D835B29DE7A2D002C6B90 /* FeedItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItems.swift; sourceTree = "<group>"; };
+		787D835D29DE7FC3002C6B90 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +73,8 @@
 		787D834529DE79E6002C6B90 /* EssentialLeeds */ = {
 			isa = PBXGroup;
 			children = (
+				787D835F29DE80DD002C6B90 /* FeedFeature */,
 				787D834629DE79E6002C6B90 /* EssentialLeeds.h */,
-				787D835B29DE7A2D002C6B90 /* FeedItems.swift */,
 			);
 			path = EssentialLeeds;
 			sourceTree = "<group>";
@@ -83,6 +85,15 @@
 				787D835029DE79E7002C6B90 /* EssentialLeedsTests.swift */,
 			);
 			path = EssentialLeedsTests;
+			sourceTree = "<group>";
+		};
+		787D835F29DE80DD002C6B90 /* FeedFeature */ = {
+			isa = PBXGroup;
+			children = (
+				787D835B29DE7A2D002C6B90 /* FeedItems.swift */,
+				787D835D29DE7FC3002C6B90 /* FeedLoader.swift */,
+			);
+			path = FeedFeature;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787D835E29DE7FC3002C6B90 /* FeedLoader.swift in Sources */,
 				787D835C29DE7A2D002C6B90 /* FeedItems.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
